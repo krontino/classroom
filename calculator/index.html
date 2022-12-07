@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+    font-size: 15pt;
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%
+}
+.calculator{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: yellow;
+  height: 550px;
+  width: 370px;
+  border-radius: 25px;
+}
+.row{
+  margin: 8px 0;
+}
+input[type=text]{
+  margin: 0;
+  padding: 10px 0px;
+  border: 2px solid yellow;
+  border-radius: 5px;
+  font-size: 20px;
+  height: 39px;
+  width: 300px;
+}
+button{
+  height: 69px;
+  width: 69px;
+  border-radius: 100%;
+  cursor: pointer;
+  font-size: 35px;
+  font-weight: bold;
+  border: hidden;
+  margin: 0px 5px;
+}
+.btn{
+  color: #fff;
+  font-weight: bolder;
+  background-color: black;
+}
+.btn1{
+  background-color: silver;
+}
+.btn2{
+  background-color: orange;
+  color: #fff;
+}
+.btn3{
+  color: #fff;
+  font-weight: bolder;
+  background-color: black;
+  border-radius: 95px;
+  width: 155px;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+          <div class="row">
+            <input type="text" class="input">
+          </div>
+          <div class="row">
+            <button class="btn1">AC</button>
+            <button class="btn1">+/-</button>
+            <button class="btn1">%</button>
+            <button class="btn2">÷</button>
+          </div>
+          <div class="row">
+            <button class="btn">7</button>
+            <button class="btn">8</button>
+            <button class="btn">9</button>
+            <button class="btn2">X</button>
+          </div>
+          <div class="row">
+            <button class="btn">4</button>
+            <button class="btn">5</button>
+            <button class="btn">6</button>
+            <button class="btn2">-</button>
+          </div>
+          <div class="row">
+            <button class="btn">1</button>
+            <button class="btn">2</button>
+            <button class="btn">3</button>
+            <button class="btn2">+</button>
+          </div>
+          <div class="row">
+            <button class="btn3">0</button>
+            <button class="btn">.</button>
+            <button class="btn2">=</button>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
